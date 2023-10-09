@@ -80,6 +80,8 @@
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,957.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -88,7 +90,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="546,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;click on notepad&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="546,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;click on notepad qualiteam1 changes&quot;]" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: *QZ-LT-R-CP-085_Rupesh Kumar Singamsetty_27-September-2023 - Notepad" sap:VirtualizedContainerService.HintSize="546,720" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="bf8e48b6-e825-4d51-8c33-416db8efed52" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
